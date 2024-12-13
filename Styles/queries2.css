@@ -1,0 +1,86 @@
+
+/* Projects Page queries */
+
+
+@media only screen and (min-width: 820px) and (min-height: 1179px) {  /* iPad Air */
+
+    h1 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .project {
+        float: left;
+        width: 70%;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    .project h3, #first-div h3 {
+        margin-left: 5%;
+    }
+
+
+    .projects {
+        display: flex;
+        align-items: center;
+        margin-top: 12%;
+    }
+
+    #second-div {
+        padding-bottom: 6%;
+    }
+    
+    #third-div {
+        padding-bottom: 4%;
+    }
+
+    footer {
+        margin-left: 17%;
+    }
+
+    footer button {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 1200px) { 
+    /* For Desktop it only worked after I put max height as 1178px, I couldn't find the problem */
+    
+    h1 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .projects {
+        width: 100%;
+        padding: 10px;
+        margin-right: 38px;
+        margin-left: 15px;
+    }
+
+    #first-div h3 {
+        margin-left: 40%;
+        font-size: 220%;
+    }
+
+    .project h3 {
+        margin-left: 45%;
+        font-size: 220%;
+    }
+
+    .date {
+        padding-left: 5%;
+    }
+
+    .project p {
+        font-size: 150%;
+    }
+
+    footer button {
+        font-size: 40px;
+        transform: translate(-100px);
+        margin-bottom: 10%;
+
+    }
+}

@@ -1,0 +1,195 @@
+
+/* Home Page queries */
+
+@media only screen and (min-width: 430px) and (max-width: 819px) and (min-height: 1180px) {   /* IPhone 14 Pro Max */
+    /* Header */
+
+    header img {
+        width: 50%;
+    }
+
+    .header-text {
+        font-size: 170%;
+    }
+
+    .social-icon  {
+        width: 55px;
+        height: 55px;
+    }
+
+    .contact {
+        transform: translate(-55%, 70%);
+        font-size: 25px;
+    }
+
+    /* Main */
+
+    main {
+        margin: 15px 0 0 15px;
+    }
+    
+    main h2 {
+        font-size: 30px;
+        margin-right: 35px;
+    }
+
+    .skills-div {
+        width: 70%;
+        padding: 10px;
+        margin: 0;
+    }
+
+   .skills-div img {
+    float: left;
+    margin-left: 20px;
+    width: 100%;
+   }
+
+   .skills-div p {
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 80%;
+    padding: 210px 0px 0 20px;
+   }
+
+   .skills-div h3 {
+    margin-left: 40px;
+   }
+
+   /* Footer */
+
+   footer h2{
+    font-size: 25px;
+    margin-right: 18px;
+}
+
+footer button {
+    font-size: 20px;
+    transform: translate(-20%, 0%);
+    margin-bottom: 10%;
+}
+
+}
+
+
+@media only screen and (min-width: 820px) and (min-height: 1180px) {           /* iPad Air */
+    /* Header */
+
+    header img {
+        width: 30%;
+    }
+
+    .header-text {
+        font-size: 200%;
+    }
+
+    .social-icon  {
+        width: 55px;
+        height: 55px;
+    }
+
+    .contact {
+        transform: translate(-45%, 70%);
+        font-size: 30px;
+    }
+
+    /* Main */
+
+    main h2 {
+        font-size: 50px;
+    }
+
+    .skills-div {            /* skills section */
+        float: left;
+        width: 27%;
+        padding: 10px;
+        margin-left: 30px;
+    }
+
+    .skills-div h3 {
+        font-size: 40px;
+    }
+
+    .skills-div img {
+     width: 105%;
+     margin-left: 0px;
+    }
+
+    .skills-div p {
+        font-size: 110%;
+    }
+
+    /* Footer */
+
+    footer h2 {
+        font-size: 50px;
+    }
+
+    footer button {
+        font-size: 25px;
+        transform: translate(-20%, 0%);
+        margin-bottom: 10%;
+    }
+}
+
+
+@media only screen and (min-width: 1200px){   /* Desktop */
+    
+    /* Header */
+    
+    header {
+        padding: 15px 0;
+    }
+
+    .header-text {
+        margin-top: -160px;
+        margin-right: 320px;
+        font-size: 150%;
+
+    }
+
+    p.header-text {
+        margin-top: 1%;
+    }
+    
+    header img {
+        margin-left: 100px;
+        width: 220px;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+        margin-right: 300px;
+    }
+
+    .contact {
+        transform: translate(160%, -150%);
+        font-size: 30px;
+    }
+
+    /* Main */
+
+    main h2 {
+        font-size: 50px;
+    }
+
+    .skills-div h3 {
+        font-size: 40px;
+    }
+
+    .skills-div p {
+        font-size: 135%;
+    }
+    
+    /* Footer */
+
+    footer h2{
+        font-size: 50px;
+    }
+
+    footer button {
+        font-size: 25px;
+        transform: translate(-75px);
+        margin-bottom: 10%;
+    }
+}

@@ -1,0 +1,135 @@
+
+/* Contact CSS */
+header button {
+    margin-bottom: 560px;
+    top: -5px;
+    left: 90px;
+    z-index: 10;
+    position: relative;
+    background-color: #365ca3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  .contact-form {
+    background: #fff;
+    padding: 20px;
+    padding-right: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border-radius: 5px;
+    position: relative; /* Ensures the div doesn't override the button */
+    z-index: 1;
+  }
+  .contact-form h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .contact-form p {
+    font-size: 14px;
+    margin-bottom: 10px; 
+    text-align: center;
+  }
+  .contact-form a {
+    color: #0078d7;
+    text-decoration: none;
+  }
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+  }
+  .contact-form button {
+    background: #365ca3;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    margin: 0px 100px;
+    margin-right: 25%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .contact-form button:hover {
+    background: #333;
+  }
+
+  .symbols {
+    display: flex;
+    gap: 10px;
+    justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 7px; 
+  }
+
+  .social-icon {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    color: black; 
+    border-radius: 50%;
+    text-decoration: none;
+    border: 2px solid black; 
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .social-icon:hover {
+    background-color: black; 
+    color: white; 
+}
+
+.contact-form{
+    position: relative; /* Ensures the div doesn't override the button */
+    z-index: 1;
+}
+
+.left-arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid #365ca3; /* Adjust color */
+    display: inline-block;
+    position: absolute;
+    top: 65px;
+    left: 250px;
+    z-index: 10;
+}
+
+.left-arrow:hover {
+    border-right-color: #388e3c; /* Darker green */
+    transform: scale(1.2); /* Enlarge slightly */
+    transition: all 0.3s ease;
+}
