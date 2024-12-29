@@ -16,11 +16,6 @@
         margin-left: 10px;
     }
 
-    .project h3, #first-div h3 {
-        margin-left: 5%;
-    }
-
-
     .projects {
         display: flex;
         align-items: center;
@@ -35,6 +30,10 @@
         padding-bottom: 4%;
     }
 
+    #fourth-div {
+        font-size: 500%;
+    }
+
     footer {
         margin-left: 17%;
     }
@@ -45,7 +44,7 @@
 }
 
 @media only screen and (min-width: 1200px) { 
-    /* For Desktop it only worked after I put max height as 1178px, I couldn't find the problem */
+    /* For Desktop */
     
     h1 {
         padding-top: 5%;
@@ -64,8 +63,12 @@
         font-size: 220%;
     }
 
+    #fourth-div {
+        font-size: xx-large;
+    }
+
     .project h3 {
-        margin-left: 45%;
+        margin-left: 36%;
         font-size: 220%;
     }
 
