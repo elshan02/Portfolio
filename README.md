@@ -3,9 +3,13 @@ Welcome to my portfolio! This website highlights my journey as a web developer, 
 
 ## Features
 Responsive Design: Optimized for all screen sizes (desktop, tablet, mobile).
+
 Interactive UI: Dynamic animations and transitions using CSS and JavaScript.
+
 Portfolio Projects: A collection of projects with descriptions, screenshots, and links to live demos or GitHub repositories.
+
 Contact Form: This allows users to reach me directly via email.
+
 Modern Aesthetic: Clean and minimalistic design with a professional touch.
 
 ## Live Demo
