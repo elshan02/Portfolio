@@ -1,12 +1,40 @@
 /* Contact Queries */
 @media only screen and (max-width: 431px) {
-    #about img{
-       display: none;
-   }
-
+   
+    body {
+        transform: scale(1);
+    }
 
    .main-header h1{
        position:relative;
        font-size:45px;
    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        transform: scale(1.5);
+        transform-origin: top left;
+    }
+
+    .left-arrow {
+        position: absolute;
+        top: calc(350px / 1.5); 
+        left: calc(210px / 1.5); 
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        transform: scale(1.5);
+        transform-origin: top left;
+    }
+
+    .left-arrow {
+        position: absolute;
+        top: calc(140px / 1.5); 
+        left: calc(800px / 1.5); 
+        overflow: hidden;
+    }
 }
