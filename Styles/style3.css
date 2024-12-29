@@ -120,16 +120,17 @@ body {
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 15px solid #365ca3; /* Adjust color */
+    border-right: 15px solid #365ca3; 
     display: inline-block;
     position: absolute;
+    overflow: hidden;
     top: 65px;
     left: 250px;
     z-index: 10;
 }
 
 .left-arrow:hover {
-    border-right-color: #388e3c; /* Darker green */
-    transform: scale(1.2); /* Enlarge slightly */
+    border-right-color: #388e3c; 
+    transform: scale(1.2); 
     transition: all 0.3s ease;
 }
