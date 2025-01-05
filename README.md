@@ -11,6 +11,3 @@ Portfolio Projects: A collection of projects with descriptions, screenshots, and
 Contact Form: This allows users to reach me directly via email.
 
 Modern Aesthetic: Clean and minimalistic design with a professional touch.
-
-## Live Demo
-Check out the live demo of my portfolio here: https://elshan02.github.io/Portfolio/
