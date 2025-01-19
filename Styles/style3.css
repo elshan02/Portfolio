@@ -128,7 +128,7 @@ body {
     left: 250px;
     z-index: 10;
     position: absolute;
-    top: calc(360px / 1.5); 
+    top: calc(440px / 1.5); 
     left: calc(6px / 1.5); 
     overflow: hidden;
   }
