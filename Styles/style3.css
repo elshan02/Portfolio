@@ -127,7 +127,11 @@ body {
     top: 65px;
     left: 250px;
     z-index: 10;
-}
+    position: absolute;
+    top: calc(360px / 1.5); 
+    left: calc(6px / 1.5); 
+    overflow: hidden;
+  }
 
 .left-arrow:hover {
     border-right-color: #388e3c; 
