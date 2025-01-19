@@ -9,6 +9,7 @@
        position:relative;
        font-size:45px;
    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -27,8 +28,8 @@
 
 @media only screen and (min-width: 1024px) {
     body {
-        transform: scale(1.5);
-        transform-origin: top left;
+        transform: scale(1);
+        transform-origin: center;
     }
 
     .left-arrow {
