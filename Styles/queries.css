@@ -1,7 +1,7 @@
 
 /* Home Page queries */
 
-@media only screen and (min-width: 430px) and (max-width: 819px) {   /* IPhone 14 Pro Max */
+@media only screen and (min-width: 430px) and (max-width: 819px)  {   /* IPhone 14 Pro Max */
     /* Header */
 
     header img {
@@ -133,7 +133,7 @@ footer button {
 }
 
 
-@media only screen and (min-width: 1200px){   /* Desktop */
+@media only screen and (min-width: 1024px){   /* Desktop */
     
     /* Header */
     
