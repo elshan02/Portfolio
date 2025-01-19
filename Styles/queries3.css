@@ -34,8 +34,8 @@
 
     .left-arrow {
         position: absolute;
-        top: calc(140px / 1.5); 
-        left: calc(800px / 1.5); 
+        top: calc(450px / 1.5); 
+        left: calc(400px / 1.5); 
         overflow: hidden;
     }
 }
